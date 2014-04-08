@@ -36,7 +36,7 @@ import (
 	"bufio"
 	"strings"
 
-	"github.com/titanous/heartbleeder/tls"
+	"github.com/titanous/heartbleeder/tree/master/tls"
 )
 
 func wait_err(conn *tls.Conn, ch chan error) {
